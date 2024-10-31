@@ -1,12 +1,14 @@
 {
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+    "amazon-production": {
+      "android": {
+        "credentialsSource": "local"
+      }
     },
-    "preview": {
-      "distribution": "internal"
-    },
-    "production": {}
+    "google-production": {
+      "android": {
+        "credentialsSource": "remote"
+      }
+    }
   }
 }
